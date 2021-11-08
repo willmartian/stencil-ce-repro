@@ -1,0 +1,19 @@
+{
+  "name": "ce_test_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "snowpack": "^3.8.8"
+  },
+  "dependencies": {
+    "stencil-test-project": "file:../stencil_lib/stencil-test-project-0.0.1.tgz"
+  }
+}
